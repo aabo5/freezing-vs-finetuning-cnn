@@ -221,3 +221,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project Specific Data & Model Weights
+data/*
+!data/README.md
+!data/.gitkeep
+
+models/*
+!models/README.md
+!models/.gitkeep
+
+# Common Machine Learning / Deep Learning Weights & Checkpoints
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+*.h5
+*.tflite
+*.safetensors
+
+# Large raw archives
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
